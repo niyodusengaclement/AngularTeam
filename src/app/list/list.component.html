@@ -1,0 +1,16 @@
+<h3>Developer List</h3>
+
+<input type="text"  [(ngModel)]="NameSearch" (input)="search()"  />
+
+
+
+<ul *ngFor="let list of orderBy('id')"> 
+    <li> {{list.id}} == {{list.name}} === {{list.position}}</li>
+</ul>
+<h3>List of users</h3>
+
+<ul *ngFor="let user of users">
+    <li>Email: {{user.email}} - Password: {{user.password}} - Confirm: {{user.password2}}
+         <button style="color: red"  (click)="deleteData(user.email)" value="{{user.email}}">Delete</button> 
+    </li>
+</ul>

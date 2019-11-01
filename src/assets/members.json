@@ -1,0 +1,23 @@
+[
+    {"id":1,"name":"Pierrette Temoin","position":"Organiser"},
+    {"id":2,"name":"Clement Mistico","position":"Developer"},
+    {"id":3,"name":"Martine Divine","position":"UI/UX Designer"},
+    {"id":4,"name":"Yvonne Uwon","position":"Marketing Officer"},
+    {"id":5,"name":"Agnes Munyana","position":"Photographer"},
+    {"id":6,"name":"Pierre Celestin","position":"Organiser"},
+    {"id":7,"name":"Cara","position":"Developer"},
+    {"id":8,"name":"Martin","position":"UI/UX Designer"},
+    {"id":9,"name":"Yvonne Cakacaka","position":"Marketing Officer"},
+    {"id":10,"name":"Agnes ","position":"Photographer"},
+    {"id":11,"name":"Temoin","position":"Organiser"},
+    {"id":12,"name":"Mistico","position":"Developer"},
+    {"id":13,"name":"UMUHIRE","position":"UI/UX Designer"},
+    {"id":14,"name":"KAYITESI","position":"Marketing Officer"},
+    {"id":15,"name":"MURENZI","position":"Photographer"},
+    {"id":16,"name":"Pierrette","position":"Organiser"},
+    {"id":17,"name":"ClementIine","position":"Developer"},
+    {"id":18,"name":"Divine","position":"UI/UX Designer"},
+    {"id":19,"name":"Uwon","position":"Marketing Officer"},
+    {"id":10,"name":"Munyana","position":"Photographer"},
+    {"id":21,"name":"Gaby","position":"Interprator"}
+  ]

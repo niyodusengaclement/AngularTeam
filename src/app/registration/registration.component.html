@@ -1,0 +1,13 @@
+<h3>Registration form</h3>
+
+
+<form #regForm="ngForm" (ngSubmit)="onRegister(regForm)">
+    <input type="text" name="email" placeholder="Enter Email please" ngModel><br><br>
+    <input type="password" name="password" placeholder="Password" ngModel><br><br>
+    <input type="password" name="password2" placeholder=" Comfirm Password" ngModel><br><br>
+
+    <button type="submit" name="register" >Register</button>
+  
+
+</form>
+ arleady have account? <a routerLink="/login">Login</a>

@@ -1,0 +1,17 @@
+<h3>Login</h3>
+
+
+<form #logForm="ngForm" (ngSubmit)="onLogin(logForm)">
+    <input type="text" name="email" placeholder="Enter ur Email plz" ngModel><br><br>
+    <input type="password" name="password" placeholder="Enter Password" ngModel><br><br>
+
+    <button type="submit"  >Login </button><br>
+    
+   don't you have an account?<a routerLink="/register"> Register</a>
+
+</form>
+
+<h3>Email of users</h3>
+<ul *ngFor="let email of localdata">
+    <li>{{email}}</li>
+</ul>
